@@ -139,7 +139,7 @@ const CreateListing = () => {
       setLoading(true);
       setError(false);
 
-      const res = await fetch("/api/listing/create", {
+      const res = await fetch("https://ab-real-estate-backend-1.vercel.app/api/listing/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

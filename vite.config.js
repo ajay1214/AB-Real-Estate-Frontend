@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: "http://localhost:3000",
+        target: "https://ab-real-estate-backend-1.vercel.app",
         secure: false,
       },
     },
